@@ -3,6 +3,7 @@
     text-align: center;
 }
 
+/* remove the auto-decoration for links */
 a {
     color: #777777;
     text-decoration: none;
@@ -10,7 +11,6 @@ a {
 
 
 /* Header customization */
-
 
 .logo   { 
     background: #4aaaa5;
@@ -32,12 +32,23 @@ a {
 
 .navigation {
     float: right;
-    padding-top: 37px;
+    padding-top: 38px;
     padding-right: 100px;
     font-family: Arial, Helvetica, sans-serif;
     color:#777777;
-    font-size: 18px;
+    font-size: 16px;
 }
 .content {
     clear: both;
+}
+
+.footings {
+    background: #666666;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 8px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 24px;
+    padding-bottom: 4px;
 }
