@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
 
 /* Header customization */
 
@@ -17,15 +22,20 @@
 
 .headings {
     float: right;
-    background: gray;
     width: 100%;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-color: #666666;
+    border-width: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navigation {
-    background: gray;
     float: right;
     padding-top: 37px;
     padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777777;
     font-size: 18px;
 }
 .content {
