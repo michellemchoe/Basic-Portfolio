@@ -11,7 +11,8 @@
     background: #4aaaa5;
     float: left;
     padding: 30px;
-    margin-left: 100px;
+    margin: 0 100px;
+    font-size: 32px;
 }
 
 .headings {
@@ -21,8 +22,11 @@
 }
 
 .navigation {
-    background: blue;
+    background: gray;
     float: right;
+    padding-top: 37px;
+    padding-right: 100px;
+    font-size: 18px;
 }
 .content {
     clear: both;
