@@ -1,0 +1,29 @@
+*   {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* Header customization */
+
+
+.logo   { 
+    background: #4aaaa5;
+    float: left;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.headings {
+    float: right;
+    background: gray;
+    width: 100%;
+}
+
+.navigation {
+    background: blue;
+    float: right;
+}
+.content {
+    clear: both;
+}
