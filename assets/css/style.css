@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+/* set background image */
+body {
+    background-image: url(../images/p4.png);
+}
+
 /* remove the auto-decoration for links */
 a {
     color: #777777;
@@ -45,6 +50,7 @@ a {
     margin: 0 auto;
 }
 
+/* footer customization */
 .footings {
     background: #666666;
     border-top-style: solid;
@@ -52,6 +58,40 @@ a {
     border-width: 8px;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     padding-top: 24px;
-    padding-bottom: 4 px;
+    padding-bottom: 12px;
+}
+
+/* Page title customization */
+.pageTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: #4aaaa5;
+    text-align: left;
+    padding: 24px 0;
+    margin: 30px 30px 16px 30px;
+    border-bottom-style: solid;
+    border-color: #666666;
+    border-width: 2px;
+}
+
+/* About Me Page */
+.profilePic {
+    float: left;
+    margin: 0px 12px 0px 30px;
+    width: 200px;
+    height: auto;
+}
+
+.bio {
+    text-align: left;
+    width: 900px;
+    margin: 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.content {
+    /* background: url(assets/images/p4.png); */
 }
