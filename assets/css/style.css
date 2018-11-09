@@ -21,7 +21,7 @@ a {
     background: #4aaaa5;
     float: left;
     padding: 30px;
-    margin: 0 calc((100% - 960px)/2);
+    margin: 0px 0px  0px calc((100% - 960px)/2);
     font-size: 32px;
 }
 
@@ -34,6 +34,7 @@ a {
     border-width: 2px;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
 }
 
 .navigation {
@@ -44,7 +45,27 @@ a {
     color:#777777;
     font-size: 16px;
 }
+
+/* pseudo-classes for navigation interaction
+*
+*
+*/
+.hLink:hover {
+    color: #666666;
+    font-weight: 100;
+}
+
+.hLink:active {
+    color: #4aaaa5;
+}
+
+/* end of pseudo classes */
+
 .content {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    background-color: #ffffff;
     clear: both;
     width: 960px;
     margin: 0 auto;
@@ -70,7 +91,7 @@ a {
     color: #4aaaa5;
     text-align: left;
     padding: 24px 0;
-    margin: 30px 30px 16px 30px;
+    margin: 0px 30px 16px 30px;
     border-bottom-style: solid;
     border-color: #666666;
     border-width: 2px;
@@ -93,5 +114,4 @@ a {
 }
 
 .content {
-    /* background: url(assets/images/p4.png); */
 }
