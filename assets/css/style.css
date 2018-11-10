@@ -52,7 +52,6 @@ a {
 */
 .hLink:hover {
     color: #666666;
-    font-weight: 100;
 }
 
 .hLink:active {
@@ -74,25 +73,20 @@ a {
     line-height: 150%;
 }
 
+.wrapper {
+    position: relative;
+    height: 100%;
+}
+
 .content::after {
     content: "";
     clear: both;
     display: table;
 }
 
-/* footer customization */
-.footings {
-    background: #666666;
-    border-top-style: solid;
-    border-color: #4aaaa5;
-    border-width: 8px;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    padding-top: 24px;
-    padding-bottom: 12px;
-    margin-top: 30px;
-}
+
+
+
 
 /* Page title customization */
 .pageTitle {
@@ -119,6 +113,7 @@ a {
     text-align: left;
     width: 900px;
     margin: 0 30px;
+    padding-bottom: 30px;
 }
 
 /* Gallery Page */
@@ -153,7 +148,7 @@ a {
     margin: 30px;
     font-size: 24px;
     text-align: left;
-    
+    padding-bottom: 30px;
 }
 
 .cBox {
@@ -193,4 +188,23 @@ input[type='text'] {
     margin: 0px 0px 30px 0px;
     padding: 6px 18 px;
 
+}
+
+
+
+/* footer customization */
+.footings {
+    background: #666666;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 8px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    margin-top: 30px;
+    position: absolute;
+    bottom: -90px;
+    width: 100%;
 }
