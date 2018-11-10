@@ -34,7 +34,7 @@ a {
     border-width: 2px;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 30px;
+    margin: 0px 0px 30px 0px;
 }
 
 .navigation {
@@ -71,6 +71,12 @@ a {
     margin: 0 auto;
 }
 
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* footer customization */
 .footings {
     background: #666666;
@@ -82,6 +88,7 @@ a {
     font-size: 16px;
     padding-top: 24px;
     padding-bottom: 12px;
+    margin-top: 30px;
 }
 
 /* Page title customization */
@@ -91,7 +98,7 @@ a {
     color: #4aaaa5;
     text-align: left;
     padding: 24px 0;
-    margin: 0px 30px 16px 30px;
+    margin: 0px 30px 30px 30px;
     border-bottom-style: solid;
     border-color: #666666;
     border-width: 2px;
@@ -113,5 +120,28 @@ a {
     line-height: 150%;
 }
 
-.content {
+/* Gallery Page */
+.gallery {
+}
+
+.gLink {
+    position: relative;
+    width: 435px;
+    float: left;
+    margin: 0px 0px 30px 30px;
+}
+
+.gIcon {
+    width: 435px;
+    height: 435px;
+}
+
+.gLabel {
+    position: absolute;
+    background-color: #4aaaa5;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 32px;
+    width: 435px;
+    bottom: 20px;
 }
