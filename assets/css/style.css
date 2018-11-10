@@ -68,14 +68,15 @@ a {
     color: #777777;
     clear: both;
     width: 960px;
-    margin: 0 auto;
+    margin: 0 auto 90px auto;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 150%;
 }
 
 .wrapper {
     position: relative;
-    height: 100%;
+    border-style: dashed;
+    border-width: 5px;
 }
 
 .content::after {
@@ -102,6 +103,12 @@ a {
 }
 
 /* About Me Page */
+.bio {
+    text-align: left;
+    margin: 0 auto 30px auto;
+    padding-bottom: 30px;
+
+}
 .profilePic {
     float: left;
     margin: 0px 12px 0px 30px;
@@ -109,11 +116,10 @@ a {
     height: auto;
 }
 
-.bio {
+.bioText {
     text-align: left;
     width: 900px;
-    margin: 0 30px;
-    padding-bottom: 30px;
+    margin: 0 30px; 
 }
 
 /* Gallery Page */
@@ -205,6 +211,6 @@ input[type='text'] {
     padding-bottom: 12px;
     margin-top: 30px;
     position: absolute;
-    bottom: -90px;
+    bottom: 0px;
     width: 100%;
 }
