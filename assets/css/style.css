@@ -3,6 +3,8 @@
     text-align: center;
 }
 
+
+
 /* set background image */
 body {
     background-image: url(../images/p4.png);
@@ -46,6 +48,38 @@ a {
     font-size: 16px;
 }
 
+/* side bar of contact me */
+.connect {
+    float: right;
+    position: fixed;
+    right: 50px;
+    top: 150 px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 28px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    background-color: #ffffff; 
+    padding: 20px 32px;
+    margin: 124px 0px;
+}
+
+.cmTitle {
+    margin: 0px 0px 12px 0px;
+}
+
+.logoGroup {
+    margin: 0px auto;
+}
+
+.cmLogo {
+    height: 60px;
+    width: 60x;
+    padding: 4px;
+
+    background-color: none;
+}
 /* pseudo-classes for navigation interaction
 *
 *
@@ -76,6 +110,7 @@ a {
 .wrapper {
     position: relative;
     border-style: dashed;
+    min-height: 800px;
     border-width: 5px;
 }
 
