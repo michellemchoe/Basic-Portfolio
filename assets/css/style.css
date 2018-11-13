@@ -117,7 +117,7 @@ a {
 
 .wrapper {
     position: relative;
-    border-style: dashed;
+    /* border-style: dashed; */
     min-height: 100%;
     border-width: 5px;
 }
