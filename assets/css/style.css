@@ -62,7 +62,8 @@ a {
     border-width: 2px;
     background-color: #ffffff; 
     padding: 20px 32px;
-    margin: 124px 0px;
+    margin-top: 124px;
+    margin-right: 
 }
 
 .cmTitle {
@@ -100,17 +101,24 @@ a {
     border-width: 2px;
     background-color: #ffffff;
     color: #777777;
-    clear: both;
-    width: 960px;
+    clear: left;
+    width: 500px;
     margin: 0 auto 90px auto;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 150%;
 }
 
+.page {
+    clear: both;
+    width: 960px;
+    margin: 0 auto 90px auto;
+
+}
+
 .wrapper {
     position: relative;
     border-style: dashed;
-    min-height: 800px;
+    min-height: 100%;
     border-width: 5px;
 }
 
