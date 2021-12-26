@@ -14,3 +14,4 @@ git push wasn't working again
         git pull origin gh-pages
     
 pretty sure you dont need to set-upstream again after the first time.
+remembering what reset.css is

@@ -24,7 +24,7 @@ a {
 }
 
 
-.headings {
+.pHeader {
     float: right;
     width: 100%;
     background: #ffffff;
@@ -189,10 +189,10 @@ input[type='text'] {
 }
 
 
-.footings {
+.pFooter {
     background: #666666;
     border-top-style: solid;
-    border-color: #4aaaa5;
+    border-color: red;
     border-width: 8px;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
