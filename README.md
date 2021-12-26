@@ -13,6 +13,4 @@ git push wasn't working again
         git fetch origin gh-pages
         git pull origin gh-pages
     
-
-i think i got it
-just practicing getting back into the flow of it. 
+pretty sure you dont need to set-upstream again after the first time.
