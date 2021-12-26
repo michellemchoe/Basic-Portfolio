@@ -14,3 +14,4 @@ git push wasn't working again
         git pull origin gh-pages
     
 
+i think i got it
