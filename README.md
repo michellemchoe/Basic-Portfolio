@@ -15,3 +15,4 @@ git push wasn't working again
     
 
 i think i got it
+just practicing getting back into the flow of it. 
